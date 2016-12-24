@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leading">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_leading_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="480dp"
+            android:minHeight="@dimen/demo_button_min_height"
+            android:minWidth="@dimen/demo_button_min_width"
+            android:text="登    录"
+            android:textColor="@android:color/white"
+            fbutton:buttonColor="@color/fbutton_color_emerald"
+            fbutton:shadowEnabled="true" />
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_leading_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="480dp"
+            android:minHeight="@dimen/demo_button_min_height"
+            android:minWidth="@dimen/demo_button_min_width"
+            android:text="注    册"
+            android:textColor="@android:color/white"
+            fbutton:shadowEnabled="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时光相册，记录生活的点点滴滴"/>
+    </LinearLayout>
+
+</LinearLayout>
